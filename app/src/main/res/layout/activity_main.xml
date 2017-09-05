@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:gravity="bottom|end"
+    android:orientation="horizontal"
+    tools:context="com.example.lesivan.aventurapirata.MainActivity">
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="55dp">
+
+        <ImageButton
+            android:id="@+id/btn_iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_iniciar"
+            android:onClick="goMenu"/>
+
+        <ImageButton
+            android:id="@+id/btn_conceptos"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_conceptos" />
+
+    </LinearLayout>
+
+</LinearLayout>
