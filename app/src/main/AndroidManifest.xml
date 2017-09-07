@@ -18,7 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu_Activity"
+        <activity
+            android:name=".Menu_Activity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Ejercicio_Activity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Teoria_Activity"
             android:screenOrientation="landscape"></activity>
     </application>
 

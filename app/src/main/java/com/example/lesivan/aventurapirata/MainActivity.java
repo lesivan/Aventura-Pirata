@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Menu_Activity.class);
         startActivity(intent);
     }
+
+    public void goTeoria(View view){
+        Intent intent = new Intent(this, Teoria_Activity.class);
+        startActivity(intent);
+    }
 }
