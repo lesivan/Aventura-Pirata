@@ -4,34 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcome"
-    android:gravity="bottom|end"
+    android:background="@drawable/portada"
+    android:gravity="center"
     android:orientation="horizontal"
     tools:context="com.example.lesivan.aventurapirata.MainActivity">
 
     <LinearLayout
-        android:layout_width="140dp"
-        android:layout_height="110dp"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:layout_marginBottom="40dp"
-        android:layout_marginRight="55dp">
+        android:orientation="vertical">
 
         <ImageButton
             android:id="@+id/btn_iniciar"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="60dp"
             android:layout_marginTop="15dp"
-            android:background="@drawable/btn_iniciar"
-            android:onClick="goMenu"/>
+            android:background="@drawable/entrar"
+            android:onClick="goMenu" />
 
-        <ImageButton
-            android:id="@+id/btn_conceptos"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/btn_conceptos"
-            android:onClick="goTeoria"/>
 
     </LinearLayout>
 

@@ -1,0 +1,25 @@
+{
+
+  "data":[
+    {
+      "id":1,
+      "respuesta": 1,
+      "denominador": 2
+    },
+    {
+      "id":2,
+      "respuesta": 2,
+      "denominador": 3
+    },
+    {
+      "id":3,
+      "respuesta": 1,
+      "denominador": 4
+    },
+    {
+      "id":4,
+      "respuesta": 4,
+      "denominador": 6
+    }
+  ]
+}

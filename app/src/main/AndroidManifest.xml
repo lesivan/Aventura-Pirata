@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lesivan.aventurapirata">
+    package="ni.edu.unan.aventura_pirata">
 
     <application
         android:allowBackup="true"
@@ -19,12 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Menu_Activity"
+            android:name=".MenuActivity"
             android:screenOrientation="landscape" />
-        <activity android:name=".Ejercicio_Activity"
-            android:screenOrientation="landscape"/>
-        <activity android:name=".Teoria_Activity"
-            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".EjemploActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".RepresentamosActivity" />
+        <activity android:name=".SplashRepresentaActivity"></activity>
     </application>
 
 </manifest>
